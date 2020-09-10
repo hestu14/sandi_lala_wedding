@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.nav {
+    color: white
+}
+
+.img-top img {
+    width: 35%;
+}
+
+.img-top2 img {
+    width: 35%;
+    transform: scaleY(-1);
+}
+
+.text-top {
+    text-align: center;
+    color: salmon;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header {
+    height: 375px;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header img {
+    width: 45%;
+    margin: 0;
+}
+
+.text-header {
+    text-align: center;
+    color: salmon;
+    font-size: 14px;
+}
+
+.text-nama {
+    text-align: center;
+    color: salmon;
+    font-size : 40px
+}
+
+#text-nama-ortu {
+    font-size : 14px
+}
+
+.text-undangan {
+    text-align: center;
+    color: salmon;
+    font-size: 14px;
+    border-bottom: 5px solid whitesmoke;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke
+}
+
+@media (max-width: 576px) { 
+
+    .img-top img {
+        width: 50%;
+    }
+    
+    .img-top2 img {
+        width: 50%;
+        transform: scaleY(-1);
+    }
+
+    .header img {
+        width: 80%;
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+}
