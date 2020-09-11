@@ -11,7 +11,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
     <title>Sandi & Lala</title>
     <link rel="shortcut icon" href="https://img.icons8.com/cotton/2x/like.png" type="image/x-icon">
@@ -21,8 +21,8 @@
 
     <nav class="nav bg-dark">
         <h5 class="ml-2 mt-1">
-            <span id="kepada>">Kepada Yth :</span> <br>
-            <span id="alamat">Andrea Pirlo (Juventus)</span>
+            <div id="tujuan-text>">Kepada Yth :</div>
+            <div id="tujuan-isi">...</div>
         </h5>
     </nav>
 
@@ -45,7 +45,7 @@
     <div class="container img-top2 mt-1">
         <center><img src="img/img-top.png" alt="img-top" srcset=""></center>
     </div>
-    
+
     <div class="container text-header mt-4">
         Bismillahirrahmanirrahim <br>
         Assalaamu`alaikum Warahmatullahi Wabarakaatuh <br><br>
@@ -90,19 +90,53 @@
 
     <div class="container mt-3">
         <div class="row text-nama">
-            <div class="col col-6">
-                Countdown
+            <div class="col col-lg-6 col-12 countdown mt-2">
+                <div id="countdown" style="font-size: 20px;">Countdown Timer</div>
+                <div id="countdown-text">
+                    <div class="row countdown-text mt-4">
+                        <div class="col col-2">
+                            <div id="countdown-days"></div>
+                            <div id="countdown-days-text" style="font-size: 16px; margin-top: -10px;">days</div>
+                        </div>
+                        <div class="col col-2">
+                            <div id="countdown-hours"></div>
+                            <div id="countdown-hours-text" style="font-size: 16px; margin-top: -10px;">hours</div>
+                        </div>
+                        <div class="col col-2">
+                            <div id="countdown-minutes"></div>
+                            <div id="countdown-minutes-text" style="font-size: 16px; margin-top: -10px;">minutes</div>
+                        </div>
+                        <div class="col col-2">
+                            <div id="countdown-second"></div>
+                            <div id="countdown-second-text" style="font-size: 16px; margin-top: -10px;">seconds</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col col-6">
-                Maps
+            <div class="col col-lg-6 col-12 maps mt-2">
+                <div id="maps" style="font-size: 20px;">Maps <br> <img
+                        src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgoo.gl%2Fmaps%2FiPUedNW1BqYC6q8g8&chs=180x180&choe=UTF-8&chld=L|2'
+                        alt='qr code'><a href='https://www.qr-code-generator.com' border='0' style='cursor:default'
+                        rel='nofollow'></a>
+                </div>
+                <div id="maps-url"></div>
             </div>
         </div>
     </div>
 
-    <footer class="bg-dark mt-5">
+    <!-- <div class="google-form mt-4 bg-dark">
+
+    </div> -->
+
+    <footer class="bg-dark mt-2">
         Created by : bliss_nev
     </footer>
 
+
+
+
+    <script src="script/countdown.js"></script>
+    <script src="script/query_params.js"></script>
 
 
     <!-- Optional JavaScript -->
@@ -116,6 +150,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
