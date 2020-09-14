@@ -65,6 +65,11 @@ footer {
     color: whitesmoke
 }
 
+#countdown-ket-text {
+    font-size: 16px;
+    margin-top: -10px;
+}
+
 @media (max-width: 576px) { 
 
     .img-top img {
@@ -76,15 +81,27 @@ footer {
         transform: scaleY(-1);
     }
 
+    .header {
+        height: 325px;
+    }
+
     .header img {
-        width: 80%;
+        width: 90%;
         margin: 0;
     }
 
-    #maps{
+    #maps {
         margin-top: 30px;
     }
+
+    #countdown-ket-text {
+        font-size: 14px;
+        margin-top: -10px;
+    }
     
+    .google-form iframe {
+        width: 400px;
+    }
 }
 
 .countdown-text {
@@ -92,3 +109,6 @@ footer {
     justify-content: center
 }
 
+.google-form {
+    height: 630px;
+}
