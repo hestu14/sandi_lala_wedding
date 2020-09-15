@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: cornsilk;
+    background-image: url('img/img-back.jpg');
 }
 
 .nav {
@@ -19,8 +19,9 @@ body {
 
 .text-top {
     text-align: center;
-    color: salmon;
-    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    color: sienna;
+    font-family: 'Courgette', cursive;
 }
 
 .header {
@@ -39,35 +40,40 @@ body {
 
 .text-header {
     text-align: center;
-    color: salmon;
+    color: sienna;
     font-size: 14px;
+    font-family: 'Grandstander', cursive;
 }
 
 .text-nama {
     text-align: center;
-    color: salmon;
-    font-size : 40px
+    color: sienna;
+    font-size : 40px;
+    font-family: 'Grandstander', cursive;
 }
 
 #text-nama-ortu {
-    font-size : 14px
+    font-size : 14px;
+    font-family: 'Grandstander', cursive;
 }
 
 .text-undangan {
     text-align: center;
-    color: salmon;
+    color: sienna;
     font-size: 14px;
     border-bottom: 5px solid whitesmoke;
+    font-family: 'Grandstander', cursive;
 }
 
 footer {
     text-align: center;
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 #countdown-ket-text {
     font-size: 16px;
     margin-top: -10px;
+    font-family: 'Grandstander', cursive;
 }
 
 @media (max-width: 576px) { 
@@ -110,5 +116,5 @@ footer {
 }
 
 .google-form {
-    height: 630px;
+    height: 650px;
 }
