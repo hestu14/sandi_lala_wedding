@@ -6,12 +6,10 @@ window.onload = function () {
         var alamat = url.searchParams.get("alamat");
 
         var tujuan;
-        if (nama = "null") {
-            // tujuan = "............";
-            $( "#tujuan-isi" ).hide();
-        } else if ( alamat = "null") {
-            // tujuan = "............";
-            $( "#tujuan-isi" ).hide();
+
+        if (nama === null || alamat === null) {
+            tujuan = "............";
+            // $( "#tujuan-isi" ).hide();
         } else {
             tujuan = nama + " (" + alamat + ")";
         }

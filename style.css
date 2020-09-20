@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    overflow-x: hidden;
 }
 
 body::after {
@@ -89,6 +90,38 @@ footer {
     font-family: 'Grandstander', cursive;
 }
 
+.countdown-text {
+    align-items: center;
+    justify-content: center
+}
+
+.google-form {
+    height: 650px;
+}
+
+.google-form iframe {
+    width: 80%;
+}
+
+.footer {
+    min-height: 50px;
+    color: silver;
+}
+
+#bliis-logo img {
+    height: 20px;
+    width: 30px;
+}
+
+#freepik {
+    font-size: 12px;
+}
+
+#freepik a{
+    text-decoration: none;
+    color:silver;
+}
+
 @media (max-width: 576px) { 
 
     .img-top img {
@@ -121,13 +154,4 @@ footer {
     .google-form iframe {
         width: 400px;
     }
-}
-
-.countdown-text {
-    align-items: center;
-    justify-content: center
-}
-
-.google-form {
-    height: 650px;
 }
