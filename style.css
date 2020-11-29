@@ -19,7 +19,13 @@ body::after {
 }
 
 .nav {
-    color: white
+    color: white;
+    font-size: 16px;
+    font-family: 'Grandstander', cursive;
+}
+
+#tujuan-isi {
+    padding-bottom: 2px;
 }
 
 .img-top img {
@@ -123,6 +129,10 @@ footer {
 }
 
 @media (max-width: 576px) { 
+
+    .nav, #tujuan-isi {
+        font-size: 14px;
+    }
 
     .img-top img {
         width: 50%;
