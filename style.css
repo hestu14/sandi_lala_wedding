@@ -115,15 +115,16 @@ footer {
 }
 
 #bliis-logo img {
-    height: 20px;
-    width: 30px;
+    height: 14px;
+    width: 25px;
+    margin-bottom: 3px;
 }
 
 #freepik {
     font-size: 12px;
 }
 
-#freepik a{
+#freepik a {
     text-decoration: none;
     color:silver;
 }
